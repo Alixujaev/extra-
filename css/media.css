@@ -121,7 +121,7 @@
         font-size: 36px;
     }
 }
-@media(max-width:768px){
+@media(max-width:767px){
     .carousel__title{
         font-size: 60px;
         line-height: 64px;
@@ -138,6 +138,7 @@
     .row__btn{
         display: flex;
         align-items: center;
+        color: rgb(255, 0, 0);
     }
     .header__row_p{
         max-width: 427px;
@@ -379,7 +380,21 @@
     }
 }
 @media(max-width:414px){
-    .recent__grid{
+    .header__row_col{
+        padding: 0;
+    }
+    .header__row_h4{
+        margin-bottom: 0;
+    }
+    .header__row_p{
+        margin-bottom: 20px;
+    }
+    .recent__content_h3{
+        padding: 0;
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+     .recent__grid{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(10, 1fr);
@@ -394,29 +409,45 @@
         'h8'
         'h9';
         gap: 1px;
+    } 
+    .recent__card_icons{
+        left: 40%;
     }
-    .latest__grid{
+    .recent__box::before{
+        height: 72%;
+    }
+    .tales-photo{
+        padding: 0 ;
+    }
+    .recent__dest{
+        padding: 0;
+    }
+     .latest__grid{
         display: flex;
         flex-direction: column;
         padding-left: 5px;
+        align-items: center;
     }
     .n1{
-        margin-bottom: 140%;
+        margin-bottom: 105%;
     }
     .n2{
-        margin-bottom: 110%;
+        margin-bottom: 83%;
     }
     .n3{
-        margin-bottom: 123%;
+        margin-bottom: 93%;
     }
     .n4{
-        margin-bottom: 20%;
+        margin-bottom: 15%;
     }
     .n6{
-        margin-bottom: 110%;
+        margin-bottom: 82%;
     }
     .n7{
-        margin-bottom: 15%;
+        margin-bottom: 10%;
+    } 
+    .footer__box{
+        width: 41%;
     }
 }
 @media(max-width:320px){
@@ -486,6 +517,24 @@
     }
     .tales__h2::after{
         bottom: -65%;
+    }
+    .n1{
+        margin-bottom: 140%;
+    }
+    .n2{
+        margin-bottom: 110%;
+    }
+    .n3{
+        margin-bottom: 123%;
+    }
+    .n4{
+        margin-bottom: 20%;
+    }
+    .n6{
+        margin-bottom: 110%;
+    }
+    .n7{
+        margin-bottom: 15%;
     }
     .footer__title{
         font-size: 20px;
