@@ -334,22 +334,28 @@
         margin: 0 auto;
     }
     .n1::after{
-        height: 435%;
+        display: none;
     }
     .n2::after{
-        height: 360%;
+        display: none;
     }
     .n3::after{
-        height: 395%;
+        display: none;
     }
     .n4::after{
-        height: 105%;
+        display: none;
     }
     .n6::after{
-        height: 358%;
+        display: none;
     }
     .n7::after{
-        height: 100%;
+        display: none;
+    }
+    .n5::after{
+        display: none;
+    }
+    .n8::after{
+        display: none;
     }
     .footer__title{
         font-size: 24px;
